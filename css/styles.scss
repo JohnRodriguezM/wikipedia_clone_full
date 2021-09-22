@@ -1,0 +1,93 @@
+$color-principal:rgb(234 236 240);
+$color-a:#3366cc;
+$fuente1:'Linux Libertine','Georgia','Times',serif;
+
+@mixin anclas{
+    color:$color-a;
+    text-decoration: none;
+}
+
+
+*{
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding:8px;
+    background-color: $color-principal;
+    .header_div1{
+        display:inline-flex;
+        align-items: center;
+        h1{
+            padding-left: 25px;
+            font-family: $fuente1;
+            font-size: 2.2rem;
+        }
+        img{
+            margin-left: 4px;
+        }
+    }
+    .header_div2{
+        display:flex;
+        justify-content: flex-end;
+        img{
+            margin-right: 7px;
+            filter:brightness(.92);
+        }
+    }
+    img{
+        width:25px;
+        height:25px;
+    }
+}
+
+/**/
+main{
+    padding-top: 15px;
+    .main_section1{
+        display:flex;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        width:80%;
+        h2{
+            margin-bottom: 0;
+            font-size: 2.7rem;
+            font-weight: 500;
+            line-height:2.85rem ;
+            a{
+            @include anclas;
+            }
+        }
+        p{
+            margin-top: 8px;
+            font-size:1.55rem;
+            line-height:2.5rem;
+            a{
+            @include anclas;
+            }
+        }
+    }
+
+    .main_div-caja{
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border:3px solid $color-principal;
+        input{
+            width:200px;
+            padding-left: 10px;
+            outline: none;
+        }
+    }
+}
+
+

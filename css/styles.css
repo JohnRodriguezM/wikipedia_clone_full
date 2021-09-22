@@ -1,0 +1,101 @@
+* {
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px;
+  background-color: #eaecf0;
+}
+header .header_div1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header_div1 h1 {
+  padding-left: 25px;
+  font-family: "Linux Libertine", "Georgia", "Times", serif;
+  font-size: 2.2rem;
+}
+header .header_div1 img {
+  margin-left: 4px;
+}
+header .header_div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .header_div2 img {
+  margin-right: 7px;
+  -webkit-filter: brightness(0.92);
+          filter: brightness(0.92);
+}
+header img {
+  width: 25px;
+  height: 25px;
+}
+
+/**/
+main {
+  padding-top: 15px;
+}
+main .main_section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 5px;
+  width: 80%;
+}
+main .main_section1 h2 {
+  margin-bottom: 0;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 2.85rem;
+}
+main .main_section1 h2 a {
+  color: #3366cc;
+  text-decoration: none;
+}
+main .main_section1 p {
+  margin-top: 8px;
+  font-size: 1.55rem;
+  line-height: 2.5rem;
+}
+main .main_section1 p a {
+  color: #3366cc;
+  text-decoration: none;
+}
+main .main_div-caja {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 3px solid #eaecf0;
+}
+main .main_div-caja input {
+  width: 200px;
+  padding-left: 10px;
+  outline: none;
+}
