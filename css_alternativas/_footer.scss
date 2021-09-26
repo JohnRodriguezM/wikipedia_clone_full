@@ -1,0 +1,45 @@
+footer{
+    margin-top: 50px;
+    border-top: $divisiones;
+    background-color: $color-principal;
+    border-radius: 8px;
+.footer_div{
+    display:flex;
+    align-items: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    border-bottom: $divisiones;
+    span{
+    background-image: url("../assets/iconos/tiempo.png");
+    background-repeat: no-repeat;
+    width:35px;
+    height: 25px;
+    }
+    p{
+        margin-top: 5px;
+        margin-bottom: 8px;
+        font-size:1.4rem;
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+    img{
+
+        width: 140px;
+        margin-top: 75px;
+        opacity: .8;
+        margin-left: 15px;
+    }
+    .footer_div_parrafo{
+        width:95%;
+        margin:10px auto;
+        border-top: $divisiones;
+        font-size:1.4rem;
+    }
+    .footer_div_a {
+    padding-bottom: 10px;
+    }
+}

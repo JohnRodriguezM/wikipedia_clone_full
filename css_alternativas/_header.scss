@@ -1,0 +1,36 @@
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding:5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $color-principal;
+    opacity:.85;
+    box-shadow: $sombra-interna;
+    .header_div1{
+        display:inline-flex;
+        align-items: center;
+        .wikipedia{
+            width:60%;
+            height:75%;
+            opacity: .7;
+        }
+        img{
+            margin-left: 6px;
+            margin-right: 12px;
+        }
+    }
+    .header_div2{
+        display:flex;
+        justify-content: flex-end;
+        img{
+            margin-right: 7px;
+            filter:brightness(.92);
+        }
+    }
+    img{
+        width:22px;
+        height:22px;
+    }
+}
