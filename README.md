@@ -1,5 +1,5 @@
 # wikipedia
-##landing page clone
+#landing page clone
 
 It is a clone of the main page of wikipedia
 
